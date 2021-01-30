@@ -12,7 +12,7 @@ const findIndexReg = /(\d+)[\s\S]*?。/
 const rootReg = /(\d+)\.一种[\s\S]*?。/
 const childrenReg1 = /(\d+)\.(根据|如)权利要求(\d+)所述[\s\S]*?。/
 const childrenReg2 = /(\d+)\.(根据|如)权利要求(\d+)或(\d+)[\s\S]*?。/
-const childrenReg3 = /(\d+)\.(根据|如)权利要求(\d+)(-|到)(\d+)[\s\S]*?。/
+const childrenReg3 = /(\d+)\.(根据|如)权利要求(\d+)(-|至)(\d+)[\s\S]*?。/
 
 const transInputToTrees = (input: string): INode[] => {
   // divide to paragraphs
